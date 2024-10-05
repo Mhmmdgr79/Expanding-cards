@@ -1,0 +1,27 @@
+.main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    column-gap: 10px;
+    
+}
+
+.cards {
+    background-color: red;
+    height: 85vh;
+    width: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    
+}
+.active{
+    width: 80%;
+}
